@@ -1,0 +1,24 @@
+/*	First main color: MAROON
+
+maroon - #bd3d6b
+
+*/
+
+/* Base
+--------------------------------------------------- */
+h1, a { color: #bd3d6b; }
+.colored-text-1 { color: #bd3d6b !important; }
+.colored-background-1 { background-color: #bd3d6b !important; }
+
+/* Page Title, Secondary Navigation & Headline
+--------------------------------------------------- */
+.breadcrumb-nav li { background-image: url(../../images/colored_theme/main_color1/maroon/link-arrow-small-colored-1.png); }
+
+/* Secondary Navigation Elements & Links
+--------------------------------------------------- */
+a.link-lg { background-image: url(../../images/colored_theme/main_color1/maroon/link-arrow-long-colored-1.png); }
+a.link-sm { background-image: url(../../images/colored_theme/main_color1/maroon/link-arrow-small-colored-1.png); }
+
+/* Typography
+--------------------------------------------------- */
+.dropcap.colored:first-letter { color: #bd3d6b; }

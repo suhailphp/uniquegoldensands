@@ -1,0 +1,82 @@
+/*-----------------------------------------------------------------------------------------------*/
+/*	Styles for jQuery Carousel Plugin by Thomas Jaggi - http://github.com/backflip/jquery-carousel/
+/*-----------------------------------------------------------------------------------------------*/
+
+.carousel-container {
+	position: relative;
+	padding-top: 0px;
+	outline: none;
+}
+
+.carousel-frame {
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel-slider {
+	list-style: none;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	/* Trigger hardware acceleration */
+	-webkit-transform: translateZ(0);
+	   -moz-transform: translateZ(0);
+	     -o-transform: translateZ(0);
+	    -ms-transform: translateZ(0);
+	        transform: translateZ(0);
+}
+
+.carousel-slide { }
+
+/* Prev / next navigation */
+.carousel-nav {
+	position: absolute;
+	right: 0;
+	top: -48px;
+	margin: 0;
+	zoom: 1;
+}
+.carousel-nav span {
+	display: inline-block;
+	width: 30px;
+	height: 22px;
+	background-image: url(../images/icons/slider-direction-nav.png);
+	background-repeat: no-repeat;
+	opacity: 0.6;
+	-webkit-transition: opacity 0.2s ease-out;
+	   -moz-transition: opacity 0.2s ease-out;
+	     -o-transition: opacity 0.2s ease-out;
+	        transition: opacity 0.2s ease-out;
+	cursor: pointer;
+	outline: none;
+}
+.carousel-nav span:hover { opacity: 1; }
+.carousel-nav .carousel-prev {
+	background-position: 6px -234px;
+}
+.carousel-nav .carousel-next {
+	margin-left: 0px;
+	background-position: -54px -234px;
+}
+.carousel-nav .state-disabled, .carousel-nav .state-disabled:hover { opacity: 0.3; cursor: default; }
+
+.ie8 .carousel-nav span { filter: alpha(opacity=60); }
+.ie8 .carousel-nav span:hover { filter: alpha(opacity=100); }
+.ie8 .carousel-nav .state-disabled, .ie8 .carousel-nav .state-disabled:hover { filter: alpha(opacity=30); }
+
+/* Mobile Landscape Size (devices and browsers)
+---------------------------------------------------------------------- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#projects-holder .carousel-nav { position: static; }
+	#projects-holder .carousel-nav span {
+		position: absolute;
+		display: block;
+		width: 32px;
+		height: 54px;
+		top: 50%;
+		margin: -41px 0 0;
+	}
+	#projects-holder .carousel-nav .carousel-prev { left: 7px; background-position: 11px -42px; }
+	#projects-holder .carousel-nav .carousel-next { right: 7px; background-position: -49px -42px; }
+}
