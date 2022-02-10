@@ -1,14 +1,14 @@
 @charset "utf-8";
-/** 
-* 
+/**
+*
 * -----------------------------------------------------------------------------
 *
 * Template : Braintech - Technology & IT Solutions HTML Template
 * Author : rs-theme
-* Author URI : http://www.rstheme.com/ 
+* Author URI : http://www.rstheme.com/
 *
 * -----------------------------------------------------------------------------
-* 
+*
 **//* TABLE OF CONTENT
 ---------------------------------------------------------
     01. General CSS
@@ -18,7 +18,7 @@
     05. About Section CSS
     06. Banner Section CSS
     07. Breadcrumbs Section CSS
-    08. Slider Section CSS    
+    08. Slider Section CSS
     09. Video Section CSS
     10. Faq Section CSS
     11. Counter Section CSS
@@ -3633,7 +3633,7 @@ body .search-modal .close:hover {
 }
 .rs-banner.style3.modify1 {
   border-radius: unset;
-  padding: 400px 0px 190px 0px;
+  padding: 150px 0px 190px 0px;
 }
 .rs-banner.style3.modify1 .banner-content .title {
   font-size: 42px;
