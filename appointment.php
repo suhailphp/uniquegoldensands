@@ -6,10 +6,10 @@
 		$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["appointment_email"]), FILTER_SANITIZE_EMAIL);
         $phone = trim($_POST["appointment_phone"]);
-        $website = trim($_POST["appointment_website"]);
+        $message = trim($_POST["appointment_message"]);
 
         // Check that data was sent to the mailer.
-        if ( empty($name) OR empty($website) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "Oops! There was a problem with your submission. Please complete the form and try again.";
@@ -18,7 +18,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "suhailphp@gmail.com";
+        $recipient = "sales@uniquegoldensands.com";
 
         // Set the email subject.
         $subject = "New contact from $name";
@@ -27,7 +27,7 @@
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n";
         $email_content .= "Phone: $phone\n";
-        $email_content .= "Website:\n$website\n";
+        $email_content .= "Message:\n$message\n";
 
         // Build the email headers.
         $email_headers = "From: $name <$email>";
