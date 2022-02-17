@@ -9,7 +9,7 @@
 * -----------------------------------------------------------------------------
 *
 **/
-
+let recaptcha_response
 (function($) {
     'use strict';
     // Get the form.
@@ -25,6 +25,15 @@
 
         // Serialize the form data.
         var formData = $(form).serialize();
+
+        console.log(grecaptcha.getResponse())
+        if(grecaptcha.getResponse() == "")
+        {
+            $(formMessages).removeClass('success');
+            $(formMessages).addClass('error');
+            $(formMessages).text("You can\'t leave Captcha Code empty");
+            return false;
+        }
 
         // Submit the form using AJAX.
         $.ajax({
