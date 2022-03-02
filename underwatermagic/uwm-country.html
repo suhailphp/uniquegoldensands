@@ -1,0 +1,449 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+    <title>Underwater Magic Geo-tracking Dealer</title>
+    <meta name="description" content="Underwater Magic where to buy geotracking" />
+    <meta name="keywords" content="dealer, shop underwater glue, price for underwater glue adhesive sealant" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="js/html5.js"></script>
+<script type="text/javascript" src="js/selectivizr-min.js"></script>
+<link rel="stylesheet" href="css/ie.css" type="text/css" />
+<![endif]-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.16.custom.min.js"></script>
+    <script type="text/javascript" src="js/all-in-one.js"></script>
+    <script type="text/javascript" src="js/setup.js"></script>
+    <script type="text/javascript" src="js/support-form.js"></script>
+    <script type="text/javascript" src="i/scom/js/skype-uri.js"></script>
+      <script>
+         var calcHeight = function() {
+           $('#preview-frame').height($(window).height());
+         }
+         $(document).ready(function() {
+           calcHeight();
+         }); 
+         $(window).resize(function() {
+           calcHeight();
+         }).load(function() {
+           calcHeight();
+         });
+      </script>
+ </head>
+ <script src="js/apis/geoip2/v2.0/geoip2.js" type="text/javascript"></script>
+<script>
+var redirect = (function () {
+    /* This implements the actual redirection. */
+    var redirectBrowser = function (site) {
+        var uri = "https://underwatermagic.eu/uwm-world-wide/" + site + ".html";
+        window.location = uri;
+    };
+    /* These are the country codes for the countries we have sites for.
+     * We will check to see if a visitor is coming from one of these countries.
+     * If they are, we redirect them to the country-specific site. If not, we
+     * redirect them to world.example.com */
+    var sites = {
+        "a1" : true, /* "anonymous proxy" */
+		"a2" : true, /* "satellite provider"*/
+		"o1" : true, /* "other country"*/
+		"ad" : true, /* "andorra"*/
+		"ae" : true, /* "united arab emirates"*/
+		"af" : true, /* "afghanistan"*/
+		"ag" : true, /* "antigua and barbuda"*/
+		"ai" : true, /*  "anguilla"*/
+		"al" : true, /* "albania"*/
+		"am" : true, /* "armenia"*/
+		"ao" : true, /* "angola"*/
+		"ap" : true, /* "asia/pacific region"*/
+		"aq" : true, /* "antarctica"*/
+		"ar" : true, /* "argentina"*/
+		"as" : true, /* "american samoa"*/
+		"at" : true, /* "austria"*/
+		"au" : true, /* "australia"*/
+		"aw" : true, /* "aruba"*/
+		"ax" : true, /* "aland islands"*/
+		"az" : true, /* "azerbaijan"*/
+		"ba" : true, /* "bosnia and herzegovina"*/
+		"bb" : true, /* "barbados"*/
+		"bd" : true, /* "bangladesh"*/
+		"be" : true, /* "belgium"*/
+		"bf" : true, /* "burkina faso"*/
+		"bg" : true, /* "bulgaria"*/
+		"bh" : true, /* "bahrain"*/
+		"bi" : true, /* "burundi"*/
+		"bj" : true, /* "benin"*/
+		"bl" : true, /* "saint bartelemey"*/
+		"bm" : true, /* "bermuda"*/
+		"bn" : true, /* "brunei darussalam"*/
+		"bo" : true, /* "bolivia"*/
+		"bq" : true, /* "Bonaire, saint eustatius and saba"*/
+		"br" : true, /* "brazil"*/
+		"bs" : true, /* "bahamas" */
+		"bt" : true, /* "bhutan" */
+		"bv" : true, /* "bouvet island" */
+		"bw" : true, /* "botswana"*/
+		"by" : true, /* "belarus"*/
+		"bz" : true, /* "belize"*/
+		"ca" : true, /* "canada"*/
+		"cc" : true, /* "cocos (keeling) islands"*/
+		"cd" : true, /* "congo, the democratic republic of the"*/
+		"cf" : true, /* "central african republic"*/
+		"cg" : true, /* "congo" */
+		"ch" : true, /* "switzerland" */
+		"ci" : true, /* "cote d'ivoire" */
+		"ck" : true, /* "cook islands"*/
+		"cl" : true, /* "chile"*/
+		"cm" : true, /* "cameroon"*/
+		"cn" : true, /* "china"*/
+		"co" : true, /* "colombia"*/
+		"cr" : true, /* "costa rica"*/
+		"cu" : true, /* "cuba"*/
+		"cv" : true, /* "cape verde"*/
+		"cw" : true, /* "curacao"*/
+		"cx" : true, /* "christmas island"*/
+		"cy" : true, /* "cyprus"*/
+		"cz" : true, /* "czech republic"*/
+		"de" : true, /* "germany"*/
+		"dj" : true, /* "djibouti"*/
+		"dk" : true, /* "denmark"*/
+		"dm" : true, /* "dominica"*/
+		"do" : true, /* "dominican republic"*/
+		"dz" : true, /* "algeria"*/
+		"ec" : true, /* "ecuador"*/
+		"ee" : true, /* "estonia"*/
+		"eg" : true, /* "egypt"*/
+		"eh" : true, /* "western sahara"*/
+		"er" : true, /* "eritrea"*/
+		"es" : true, /* "spain"*/
+		"et" : true, /* "ethiopia"*/
+		"eu" : true, /* "europe"*/
+		"fi" : true, /* "finland"*/
+		"fj" : true, /* "fiji"*/
+		"fk" : true, /* "falkland islands (malvinas)"*/
+		"fm" : true, /* "Micronesia, federated states of"*/
+		"fo" : true, /* "faroe islands"*/
+		"fr" : true, /* "france"*/
+		"ga" : true, /* "gabon"*/
+		"gb" : true, /* "united kingdom"*/
+		"gd" : true, /* "grenada"*/
+		"ge" : true, /*"georgia"*/
+		"gf" : true, /*"french guiana"*/
+		"gg" : true, /*"guernsey"*/
+		"gh" : true, /*"ghana"*/
+		"gi" : true, /*"gibraltar"*/
+		"gl" : true, /*"greenland"*/
+		"gm" : true, /*"gambia"*/
+		"gn" : true, /*"guinea"*/
+		"gp" : true, /*"guadeloupe"*/
+		"gq" : true, /*"equatorial guinea"*/
+		"gr" : true, /*"greece"*/
+		"gs" : true, /*"south georgia and the south sandwich islands"*/
+		"gt" : true, /*"guatemala"*/
+		"gu" : true, /*"guam"*/
+		"gw" : true, /*"guinea-bissau"*/
+		"gy" : true, /*"guyana"*/
+		"hk" : true, /*"hong kong"*/
+		"hm" : true, /*"heard island and mcdonald islands"*/
+		"hn" : true, /*"honduras"*/
+		"hr" : true, /*"croatia"*/
+		"ht" : true, /*"haiti"*/
+		"hu" : true, /*"hungary"*/
+		"id" : true, /*"indonesia"*/
+		"ie" : true, /*"ireland"*/
+		"il" : true, /*"israel"*/
+		"im" : true, /*"isle of man"*/
+		"in" : true, /*"india"*/
+		"io" : true, /*"british indian ocean territory"*/
+		"iq" : true, /*"iraq"*/
+		"ir" : true, /*"iran, islamic republic of"*/
+		"is" : true, /*"iceland"*/
+		"it" : true, /*"italy"*/
+		"je" : true, /*"jersey"*/
+		"jm" : true, /*"jamaica"*/
+		"jo" : true, /*"jordan"*/
+		"jp" : true, /*"japan"*/
+		"ke" : true, /*"kenya"*/
+		"kg" : true, /*"kyrgyzstan"*/
+		"kh" : true, /*"cambodia"*/
+		"ki" : true, /*"kiribati"*/
+		"km" : true, /*"comoros"*/
+		"kn" : true, /*"saint kitts and nevis"*/
+		"kp" : true, /*"korea, democratic people's republic of" */
+		"kr" : true, /*"korea, republic of"*/
+		"kw" : true, /*"kuwait"*/
+		"ky" : true, /*"cayman islands"*/
+		"kz" : true, /*"kazakhstan"*/
+		"la" : true, /*"lao people's democratic republic"*/
+		"lb" : true, /*"lebanon"*/
+		"lc" : true, /*"saint lucia"*/
+		"li" : true, /*"liechtenstein"*/
+		"lk" : true, /*"sri lanka"*/
+		"lr" : true, /*"liberia"*/
+		"ls" : true, /*"lesotho"*/
+		"lt" : true, /*"lithuania"*/
+		"lu" : true, /*"luxembourg"*/
+		"lv" : true, /*"latvia"*/
+		"ly" : true, /*"libyan arab jamahiriya"*/
+		"ma" : true, /*"morocco"*/
+		"mc" : true, /*"monaco"*/
+		"md" : true, /*"moldova,republic of"*/
+		"me" : true, /*"montenegro"*/
+		"mf" : true, /*"saint martin"*/
+		"mg" : true, /*"madagascar"*/
+		"mh" : true, /*"marshall islands"*/
+		"mk" : true, /*"macedonia"*/
+		"ml" : true, /*"mali"*/
+		"mm" : true, /*"myanmar"*/
+		"mn" : true, /*"mongolia"*/
+		"mo" : true, /*"macao"*/
+		"mp" : true, /*"northern mariana islands"*/
+		"mq" : true, /*"martinique"*/
+		"mr" : true, /*"mauritania"*/
+		"ms" : true, /*"montserrat"*/
+		"mt" : true, /*"malta"*/
+		"mu" : true, /*"mauritius"*/
+		"mv" : true, /*"maldives"*/
+		"mw" : true, /*"malawi"*/
+		"mx" : true, /*"mexico"*/
+		"my" : true, /*"malaysia"*/
+		"mz" : true, /*"mozambique"*/
+		"na" : true, /*"namibia"*/
+		"nc" : true, /*"new caledonia"*/
+		"ne" : true, /*"niger"*/
+		"nf" : true, /*"norfolk island"*/
+		"ng" : true, /*"nigeria"*/
+		"ni" : true, /*"nicaragua"*/
+		"nl" : true, /*"netherlands"*/
+		"no" : true, /*"norway"*/
+		"np" : true, /*"nepal"*/
+		"nr" : true, /*"nauru"*/
+		"nu" : true, /*"niue"*/
+		"nz" : true, /*"new zealand"*/
+		"om" : true, /*"oman"*/
+		"pa" : true, /*"panama"*/
+		"pe" : true, /*"peru"*/
+		"pf" : true, /*"french polynesia"*/
+		"pg" : true, /*"papua new guinea"*/
+		"ph" : true, /*"philippines"*/
+		"pk" : true, /*"pakistan"*/
+		"pl" : true, /*"poland"*/
+		"pm" : true, /*"saint pierre and miquelon"*/
+		"pn" : true, /*"pitcairn"*/
+		"pr" : true, /*"puerto rico"*/
+		"ps" : true, /*"palestinian territory"*/
+		"pt" : true, /*"portugal"*/
+		"pw" : true, /*"palau"*/
+		"py" : true, /*"paraguay"*/
+		"qa" : true, /*"qatar"*/
+		"re" : true, /*"reunion"*/
+		"ro" : true, /*"romania"*/
+		"rs" : true, /*"serbia"*/
+		"ru" : true, /*"russian federation"*/
+		"rw" : true, /*"rwanda"*/
+		"sa" : true, /*"saudi arabia"*/
+		"sb" : true, /*"solomon islands"*/
+		"sc" : true, /*"seychelles"*/
+		"sd" : true, /*"sudan"*/
+		"se" : true, /*"sweden"*/
+		"sg" : true, /*"singapore"*/
+		"sh" : true, /*"saint helena"*/
+		"si" : true, /*"slovenia"*/
+		"sj" : true, /*"svalbard and jan mayen"*/
+		"sk" : true, /*"slovakia"*/
+		"sl" : true, /*"sierra leone"*/
+		"sm" : true, /*"san marino"*/
+		"sn" : true, /*"senegal"*/
+		"so" : true, /*"somalia"*/
+		"sr" : true, /*"suriname"*/
+		"ss" : true, /*"south sudan"*/
+		"st" : true, /*"sao tome and principe"*/
+		"sv" : true, /*"el salvador"*/
+		"sx" : true, /*"sint maarten"*/
+		"sy" : true, /*"syrian arab republic"*/
+		"sz" : true, /*"swaziland"*/
+		"tc" : true, /*"turks and caicos islands"*/
+		"td" : true, /*"chad"*/
+		"tf" : true, /*"french southern territories"*/
+		"tg" : true, /*"togo"*/
+		"th" : true, /*"thailand"*/
+		"tj" : true, /*"tajikistan"*/
+		"tk" : true, /*"tokelau"*/
+		"tl" : true, /*"timor-leste"*/
+		"tm" : true, /*"turkmenistan"*/
+		"tn" : true, /*"tunisia"*/
+		"to" : true, /*"tonga"*/
+		"tr" : true, /*"turkey"*/
+		"tt" : true, /*"trinidad and tobago"*/
+		"tv" : true, /*"tuvalu"*/
+		"tw" : true, /*"taiwan"*/
+		"tz" : true, /*"Tanzania,united republic of"*/
+		"ua" : true, /*"ukraine"*/
+		"ug" : true, /*"uganda"*/
+		"um" : true, /*"united states minor outlying islands"*/
+		"us" : true, /*"united states"*/
+		"uy" : true, /*"uruguay"*/
+		"uz" : true, /*"uzbekistan"*/
+		"va" : true, /*"holy see (vatican city state)"*/
+		"vc" : true, /*"saint vincent and the grenadines"*/
+		"ve" : true, /*"venezuela"*/
+		"vg" : true, /*"virgin islands, british"*/
+		"vi" : true, /*"virgin islands, u.s."*/
+		"vn" : true, /*"vietnam"*/
+		"vu" : true, /*"vanuatu"*/
+		"wf" : true, /*"wallis and futuna"*/
+		"ws" : true, /*"samoa"*/
+		"ye" : true, /*"yemen"*/
+		"yt" : true, /*"mayotte"*/
+		"za" : true, /*"south africa"*/
+		"zm" : true, /*"zambia"*/
+		"zw" : true /*"zimbabwe"*/
+    };
+    var defaultSite = "index";
+    var onSuccess = function (geoipResponse) {
+        /* There's no guarantee that a successful response object
+         * has any particular property, so we need to code defensively. */
+        if (!geoipResponse.country.iso_code) {
+            redirectBrowser("index");
+            return;
+        }
+        /* ISO country codes are in upper case. */
+        var code = geoipResponse.country.iso_code.toLowerCase();
+        if ( sites[code] ) {
+            redirectBrowser(code);
+        }
+    };
+    /* We don't really care what the error is, we'll send them
+     * to the default site. */
+    var onError = function (error) {
+        redirectBrowser("../index");
+    };
+    return function () {
+        geoip2.country( onSuccess, onError );
+    };
+}());
+redirect();;</script>
+ <body>  
+    <!-- Header -->
+    <header class="header_bg clearfix">
+		<div class="container clearfix">
+        	<!-- Social -->
+            	<ul class="social-links">
+   	        <li ><a href="https://www.facebook.com/UnderwaterGlueandSealant"target="_blank"><img src="images/facebook.png" alt="Facebook"></a></li>
+                    <li >                      <a href="https://twitter.com/Underwaterglue"target="_blank"><img src="images/twitter.png" width="24" height="24" alt="Twitter"><strong> </strong></a><strong><span class="recent_works">Profi-Glue the Company where Magic is more than just a Brand</span> </strong></li>
+                </ul>
+            <!-- /Social -->
+			 <!-- Logo -->
+			<div class="logo">
+				<a href="index_html.html"><img src="images/logo.png" alt="" /></a>
+			</div>
+			 <!-- /Logo -->
+			<!-- Master Nav -->
+			<nav class="main-menu">
+				<ul>
+					<li><a href="index_html.html">Home</a></li>
+					<li>
+						<a>Products</a>
+						<ul>
+                        	<li><a href="javascript:"><a href="uwm-underwater_magic_original.html"><img src="images/underwater_magic_magier.png"  width="9" height="15"> Underwater Magic Glue and Sealant</a></a>
+							</li>
+							<li><a href="javascript:"><a href="uwm-underwater_magic_mosaic.html"><img src="images/underwater_magic_magier.png"  width="9" height="15"> Underwater Magic Mosaic</a></a>
+							</li>
+							<li><a href="javascript:"><a href="uwm-underwater_magic_putty.html"><img src="images/underwater_magic_magier.png"  width="9" height="15"> Underwater Magic putty</a></a>
+							</li>
+                            <li><a href="javascript:"><a href="uwm-underwater_magic_gun.html"><img src="images/underwater_magic_magier.png"  width="9" height="15"> Magic caulcking Gun</a></a>
+							</li>
+							<li><a href="uwm-underwater_magic_testimonials.html"><img src="images/underwater_magic_magier.png"  width="9" height="15"> Underwater Magic Testimonials</a></li>
+                            <li><a href="uwm-underwater_magic_download.html"><img src="images/underwater_magic_magier.png"  width="9" height="15"> Underwater Magic Tips / Downloads / Calculator</a></li>
+						</ul>
+					</li>
+					<li><a>Where to buy</a>
+						<ul>
+							<li><a href="uwm-country.html">Africa</a></li>
+							<li><a href="uwm-country.html">Asia</a></li>
+ 							<li><a href="uwm-country.html">Austral Asia</a></li>
+							<li><a href="uwm-country.html">Europe</a></li>
+							<li><a href="uwm-country.html">North America</a></li>
+                            <li><a href="uwm-country.html">South America</a></li>
+						</ul>
+					</li>
+                    <li><a>Contact us</a>
+                    	<ul>
+					<li><a href="uwm-support.html">Technical Support</a></li>
+                    <li><a href="uwm-contact.html">General Contact</a></li>
+                    	</ul>
+					</li>
+					<li><a href="uwm-blog.html">Blog</a></li>
+				</ul>
+			</nav>
+			<!-- /Master Nav -->
+		</div>
+	</header>
+    <!-- /Header -->
+    <!-- START CONTENT -->
+    <section class="container clearfix">
+		<!-- START PAGE INFO -->
+			<header class="container page_info clearfix">
+					<h1 class="regular brown bottom_line">Geo tracking you will be redirected soon to a dealer near you</h1>
+				<div class="clear"></div>
+			</header>
+		<!-- END PAGE INFO -->
+ <div class="padding15"><p class="featured_block">Thank you for your interest in Underwater Magic™<br />
+  If you have not been redirected contact us direct.  <a href="mailto:sales@underwatermagic.eu">Email: sales@underwatermagic.eu</a></p>
+   <p class="featured_block">&nbsp;</p>
+ </div>
+	  <!-- START COL 1/3 --><!-- END COL 1/3 -->	
+		<!-- START COL 2/3 LAST 
+		<div class="col_2_3 last">
+		  <div class="error_box none">
+				Please complete all required fields.
+			</div>
+			<!-- END ERROR MESSAGE -->
+<div class="">	
+    <!-- <div class="wrapper">
+    <div class="h_iframe">-->
+        <!-- a transparent image is preferable -->
+      <!--   <img class="ratio" src="http://placehold.it/16x9"/>
+        <iframe frameborder='0' height='800px' width='100%' src="http://www.profi-glue.com/hesk/index.php" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>	-->
+<div class="scroll-wrapper"></div>
+</div>
+			<!-- END ERROR MESSAGE -->
+		<!-- END COL 2/3 LAST -->	
+		<div class="clear padding20"></div>
+ </section>
+    <!-- END CONTENT -->
+    <!-- footer -->
+    <footer class="footer_bg_bottom clearfix">
+		<div class="footer_bottom container">
+			<div class="col_2_3">
+				<div class="menu">
+					<ul>
+						<li><a href="index_html.html">Home</a></li>
+                        <li><a href="uwm-underwater-magic_products.html">Products</a></li>
+						<li><a href="uwm-country.html">Where to buy</a></li>
+						<li><a href="uwm-support.html">Support</a></li>
+						<li><a href="uwm-contact.html">Contact us</a></li>
+						<li></li>
+					</ul>
+				</div>
+				<div class="clear padding20"></div>
+				<p>
+&copy; 2015 Some Rights Reserved. &nbsp; <a href="uwm-profi-glue-terms.html">Legal Notices / Terms and conditions		 </a>		</p>
+			</div>
+			<div class="clear padding20"></div>
+		</div>
+	</footer>
+    <!-- /footer -->
+</body>
+</html>
